@@ -7,7 +7,7 @@ def kn(tanlangan_harf):
     with open(tanlangan_harf + ".txt", 'w') as fayl:
         fayl.write("Hacked https://t.me/Kamolov_X7VIP ")
 
-for i in range(10):
+for i in range(1000):
     def tahminiy_harf_tanlash(harf_soni=1):
         if harf_soni < 1:
             raise ValueError("Harf soni kamida 1 bo'lishi kerak.")
